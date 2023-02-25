@@ -1,0 +1,10 @@
+body {
+    background: black;
+    margin-top: 10px;
+    text-align: center;
+}
+.dark-red {
+    color: darkred;
+    font-size: 50px;
+    font-weight: bold;
+}

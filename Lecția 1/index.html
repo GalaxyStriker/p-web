@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My 3rd site</title>
+</head>
+
+<body>
+    <h2>Hello!</h2>
+    <h3>Please fill out this form in order to register:</h3>
+    <form>
+        <label for="user">Enter username:</label>
+        <input type="text" id="user" placeholder="Example123" required><br>
+        <label for="email">Enter email:</label>
+        <input type="email" id="email" placeholder="example123@gmail.com" required><br>
+        <label for="pass">Enter password:</label>
+        <input type="password" id="pass" placeholder="123456789" required><br><br>
+
+        Do you agree to EULA? <a href="eula.html">Visit here</a> <br>
+        <input type="radio" name="eula" required>Yes <br>
+        <input type="radio" name="eula" required>No <br><br>
+
+        <label for="age">Select your age</label>
+        <select name="age" id="age" required>
+            <option>0-12</option>
+            <option>13-17</option>
+            <option>18-39</option>
+            <option>40-65</option>
+            <option>65+</option>
+        </select>
+
+        <br><br>
+        <textarea name="desc" id="desc" cols="40" rows="10" placeholder="Enter your account bio/description (OPTIONAL)"></textarea>
+        <br><br>
+        <input type="submit" value="submit this form">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+body {
+    background: white;
+    margin: 0;
+}
+
+.red {
+    background: crimson;
+    height: 320px;
+    font-size: 45px;
+}
+
+.blue {
+    background: blue;
+    margin: 34.5px 0px;
+    height: 220px;
+}
+
+.bluealt{
+    background: blue;
+    height: 320px;
+}
+
+.green {
+    background:forestgreen;
+    height: 320px;
+}
+
+.white {
+    background:white;
+    height: 320px;
+    font-size: 45px;
+}
